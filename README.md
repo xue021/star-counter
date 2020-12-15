@@ -2,4 +2,4 @@
 
 Counts stars in a night sky.
 
-See more at: http:\\ryancharrison.com/star-counter
+See more at: https://ryancharrison.com/star-counter/
