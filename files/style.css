@@ -1,0 +1,96 @@
+body {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: medium;
+	color: black; 
+	font-weight: bold;
+}
+h1, h2, h3, h4, h5, h6{ 
+	color: black;
+	padding-bottom: 15px;
+
+}
+h1{
+	font-size: 30px;
+	color:blue;
+}
+h2{
+	font-size: 15px;
+}
+h3{
+	font-size: 15px;
+}
+h4{
+	font-size: 15px;
+}
+h5{
+	font-size: 15px;
+}
+h6{
+	font-size: 15px;
+}
+
+header{
+	 
+font-size: 200%;
+	color: blue; 
+}
+footer{
+	font-size: small; 
+	color: black; 
+}
+button{
+	font-size: large; 
+	color: black;
+	background: #cc00cc;
+}
+div {
+	border-width: thick;
+	border-style: solid;
+	border-color: black;
+	padding: 12px;
+	margin: 60px;
+}
+ul{
+	font-style: italic;
+}
+ol{
+	color: orange;
+}
+table{
+	border: thin solid black;
+}
+th, td{
+	border: thin solid black;
+	padding: 5px;
+	font-size: small;
+}
+th{
+	font-weight: bold;	
+}
+td{
+	color: gray;
+}
+
+.goat{
+	background: #0060cc;
+}
+.meglassesm8{
+	background: #0054b2;
+}
+.mimic{
+	background: #004899;
+}
+.html{
+	background: #003c7f;
+}
+.summary{
+	color: gray;
+	border: none;
+	background: #003066;
+	font-style: large;
+	padding: 15px;
+}
+#main{
+	border-width: 1px;
+
+}

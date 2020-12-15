@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="./files/style.css" rel="stylesheet" type="text/css">
+
+
+<title>Star Counter</title>
+<style type="text/css"></style></head>
+
+<body><div id="main">
+	<header>
+	<h1>Star Counter</h1>
+	</header>
+    <div class="goat">
+
+    <h2> How the Program Works: </h2>
+	<p><a href="http://ryancharrison.com/StarCounter/starcounter.java">My program(click me) </a> first starts by loading a grayscale copy of the original image. It then creates a brightness map where it finds all pixels with an lumination level greater than my set threshold(I used 150) and stores said pixels as black and all below the threshold become white. This image can be found below as Uncounted Image Output Peak Map. Next up is to count all the stars, to do this we have to make sure we don't count the same stars twice so I had to come up with an algorithm to ignore stars that have already been counted. That algorithm scans for black pixels and it increments a counter by 1 if the star hasnt been counted yet. The counted pixel is changed to red. If the algorithm scans and finds a black pixel that has a red pixel adjacent to it, it too is changed to red but the counter is NOT incremented. After every pixel has been scanned it outputs the number of unique stars. </p>
+	<p>My program found 1821 stars.</p>
+    </div>
+	
+	<div class="meglassesm8">
+	<h2>Images:</h2>
+	<p> The Original Image </p>
+	<img src="./files/IMG_3030.jpg" alt="original" width="1296" height="864">
+	
+	<p>Image Converted to Grayscale</p>
+	<img src="./files/starsbw.jpg" alt="input" width="1296" height="864">
+	
+	<p>Uncounted Image Output Peak Map</p>
+	<p>Note: the pixels are black where stars were found.</p>
+	<img src="./files/output_uncounted.png" alt="output" width="1296" height="864">
+	
+	<p>Counted Image Output Peak Map </p>
+	<p> Note: this is the same as the image above except the black pixels have become red. This is a result of the algorithm I used to count the clumps of pixels. </p>
+	<img src="./files/output_counted.png" alt="output" width="1296" height="864">
+ 
+	
+    
+    </div>
+
+	
+
+</div>
+    
+
+
+
+</body></html>
